@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+           <img src="logo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="home" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="mango2.gif" alt="Image of Mangoes" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Juicy, Sweet.</h1>
+          <h2>
+            100% Organic, vivid varieties of Mangoes grown
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Growing and managing mango trees require attention
+             to several key factors to ensure healthy growth and
+              optimal fruit production.Mango trees thrive in tropical
+               and subtropical climates. They require plenty of sunlight
+                and warm temperatures to flourish. Ensure you're planting
+                 them in an area where they can receive full sun for most
+                 of the day.
+          </p>
+          <img src="mango1.jpg" alt=" Mangoes the tree" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="2.jpg" alt="photo of Dasehri mango" />
+            <h4>Dasehri</h4>
+            <p>
+              Dasehri mangoes are a popular variety of mangoes cultivated 
+              mainly in the northern regions of India, particularly in the 
+              states of Uttar Pradesh and Bihar. They have a refreshing taste that is mildly aromatic.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="3.jpg"
+              alt="photo of Safeda mango"/>
+            <h4>Safeda</h4>
+            <p>
+              Safeda mangoes are primarily enjoyed fresh as a dessert or snack. 
+              They are also used to make juices, smoothies, jams, and other 
+              mango-based products.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="4.jpg" alt="photo of Kesar mango" />
+            <h4>Kesar</h4>
+            <p>
+              Kesar mangoes are a popular variety of mangoes primarily cultivated in the 
+              state of Gujarat, India.  Kesar mangoes are renowned for their 
+              unique flavor profile, which is sweet, rich, and aromatic. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="7.jpg" alt="photo of Chaunsa Mango" />
+            <h4>Chaunsa</h4>
+            <p>
+              Chaunsa mangoes are a premium variety of mangoes  
+              Chaunsa mangoes are prized for their sweet, rich 
+              flavor with a perfect balance of sweetness and acidity.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="10.jpg" alt="photo of Totapuri Mnagoes" />
+            <h4>Totapuri</h4>
+            <p>
+              Totapuri mangoes have a pleasant aroma, it is generally milder 
+              compared to some other mango varieties like Alphonso or Chaunsa.
+              
+            </p>
+          </div>
+          <div class="tile">
+            <img src="8.png" alt="photo of Alphonso Mango" />
+            <h4>Alphonso</h4>
+            <p>
+              Alphonso mangoes are primarily grown in India, particularly in the 
+              region of Maharashtra. They're often considered one of the best-tasting 
+              mango varieties.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh and sweet Mangoes with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as Sweet Mangoes is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Sarthak...</a>
+    </footer>
+  </body>
+</html>
