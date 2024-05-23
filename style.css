@@ -98,11 +98,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
   text-align: start;
-<<<<<<< HEAD
-  min-height: 75rem;
-=======
-  min-height: 70rm;
->>>>>>> 69404b2a4570be44e973b9b04c0ec78132f9339f
+  min-height: 70rem;
   height: auto;
   margin: 0 auto 5rem auto;
   justify-content: start;
