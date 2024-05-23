@@ -98,7 +98,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
   text-align: start;
-  min-height: 60rem;
+  min-height: 75rem;
   height: auto;
   margin: 0 auto 5rem auto;
   justify-content: start;
@@ -113,12 +113,13 @@ nav {
 }
 .eye-grabber {
   flex: 1;
-  padding: 0 2rem;
+  
 }
 @media (max-width: 800px) {
   .eye-grabber {
     max-width: max-content;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
+    flex-flow: column wrap;
   }
 }
 .eye-grabber h1 {
@@ -299,6 +300,15 @@ box-shadow: #333;
   font-size: 3rem;
   font-weight: 500;
 }
+
+@media (max-width: 800px) {
+  .sec-content-div {
+    max-width: max-content;
+    padding-bottom: 8rem;
+    flex-flow: column wrap;
+  }
+}
+
 input[type="email"] {
   border: none;
   outline: 0;
