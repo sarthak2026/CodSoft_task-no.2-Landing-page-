@@ -1,2 +1,2 @@
-# Mango landing page
+# Landing page
  
